@@ -1,0 +1,8 @@
+{
+  "uuid": "monitor-input-brightness@cezou.github.io",
+  "name": "Monitor Input & Brightness",
+  "description": "Switch the input source and set the brightness of your external monitors from the top bar, using DDC/CI (ddcutil).",
+  "shell-version": ["46", "47", "48"],
+  "url": "https://github.com/cezou/monitor-input-brightness",
+  "version": 1
+}
