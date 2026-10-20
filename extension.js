@@ -174,10 +174,10 @@ class MonitorSection {
 
 const MonitorIndicator = GObject.registerClass(
 class MonitorIndicator extends PanelMenu.Button {
-    _init() {
+    _init(extensionPath) {
         super._init(0.0, 'Monitor Input & Brightness');
         this.add_child(new St.Icon({
-            icon_name: 'video-display-symbolic',
+            gicon: Gio.icon_new_for_string(`${extensionPath}/icons/monitor-input-brightness.svg`),
             style_class: 'system-status-icon',
         }));
 
@@ -241,7 +241,7 @@ class MonitorIndicator extends PanelMenu.Button {
 
 export default class MonitorInputBrightnessExtension extends Extension {
     enable() {
-        this._indicator = new MonitorIndicator();
+        this._indicator = new MonitorIndicator(this.path);
         Main.panel.addToStatusArea(this.uuid, this._indicator);
     }
 

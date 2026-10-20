@@ -34,8 +34,8 @@ if getent group i2c >/dev/null && ! id -nG "$USER" | grep -qw i2c; then
 fi
 
 step "Installing the extension to $DEST"
-mkdir -p "$DEST"
-for f in metadata.json extension.js; do
+mkdir -p "$DEST/icons"
+for f in metadata.json extension.js icons/monitor-input-brightness.svg; do
     curl -fsSL "$RAW/$f" -o "$DEST/$f"
 done
 
