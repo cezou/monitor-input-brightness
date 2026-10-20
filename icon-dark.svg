@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <g fill="none" stroke="#3d3846" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="20" y="36" width="216" height="148" rx="18"/>
+    <path d="M128 184v32M84 220h88"/>
+  </g>
+  <!-- left half: input switch, ~72px box centred on (78,110) -->
+  <g fill="none" stroke="#3d3846" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 92h68M95 75l17 17-17 17"/>
+    <path d="M112 128H44M61 111l-17 17 17 17"/>
+  </g>
+  <!-- right half: brightness, ~72px box centred on (178,110) -->
+  <g stroke="#3d3846" stroke-width="9" stroke-linecap="round">
+    <circle cx="178" cy="110" r="15" fill="#3d3846" stroke="none"/>
+    <path d="M178 84v-10M178 136v10M152 110h-10M204 110h10M159.6 91.6l-7-7M196.4 128.4l7 7M159.6 128.4l-7 7M196.4 91.6l7-7"/>
+  </g>
+</svg>
