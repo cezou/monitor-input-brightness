@@ -3,6 +3,7 @@
 <p align="center"><img src="screenshot.png" width="260" alt="Menu in the GNOME top bar"></p>
 
 Switch the **input source** and set the **brightness** of your external monitors from the GNOME top bar.
+
 A [Twinkle Tray](https://twinkletray.com) alternative for GNOME on Linux.
 
 ## Install
