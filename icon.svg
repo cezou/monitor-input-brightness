@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5e5c64"/><stop offset="1" stop-color="#3d3846"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#62a0ea"/><stop offset="1" stop-color="#1a5fb4"/>
+    </linearGradient>
+  </defs>
+  <!-- stand -->
+  <path d="M108 196h40l6 30H102z" fill="#77767b"/>
+  <rect x="78" y="222" width="100" height="14" rx="7" fill="#9a9996"/>
+  <!-- monitor -->
+  <rect x="16" y="36" width="224" height="164" rx="18" fill="url(#bezel)"/>
+  <rect x="28" y="48" width="200" height="136" rx="8" fill="url(#screen)"/>
+  <!-- input switch arrows -->
+  <g fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M62 94h104M140 70l26 24-26 24"/>
+    <path d="M194 140H90M116 116l-26 24 26 24"/>
+  </g>
+  <!-- brightness badge -->
+  <circle cx="212" cy="56" r="40" fill="#f6d32d" stroke="#fff" stroke-width="6"/>
+  <circle cx="212" cy="56" r="14" fill="#e5a50a"/>
+  <g stroke="#e5a50a" stroke-width="6" stroke-linecap="round">
+    <path d="M212 26v8M212 78v8M182 56h8M234 56h8M191 35l6 6M227 71l6 6M191 77l6-6M227 41l6-6"/>
+  </g>
+</svg>
